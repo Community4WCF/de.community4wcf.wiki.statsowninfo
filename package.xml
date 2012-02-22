@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1824 2011-08-28 14:07:15Z TobiasH87 $ -->
+<package name="de.community4wcf.wiki.statsowninfo">
+	<packageinformation>
+		<packagename><![CDATA[[C4W] Wiki StatsOwnInfo]]></packagename>
+		<packagename language="de"><![CDATA[[C4W] Wiki StatsOwnInfo]]></packagename>
+		<packagename language="de-informal"><![CDATA[[C4W] Wiki StatsOwnInfo]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zeigt auf der Startseite des Wiki, bei der Statistik, eine zusätzliche "Box" an, die beliebig gefüllt werden kann.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Zeigt auf der Startseite des Wiki, bei der Statistik, eine zusätzliche "Box" an, die beliebig gefüllt werden kann.]]></packagedescription>
+		<version>1.2.1</version> <!-- codename: StatsOwnInfo -->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<date>2011-03-13</date>
+		<isunique>0</isunique>
+		<standalone>0</standalone>
+		<plugin>com.burningpedia.wiki</plugin>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[LGPL]]></license>
+		<licenseURL><![CDATA[http://www.gnu.org/licenses/lgpl.html]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	<requiredpackages>
+		<requiredpackage minversion="1.1.0 pl1">com.burningpedia.wiki</requiredpackage>
+	</requiredpackages>
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.*">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>options.xml</options>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.1.*">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>options.xml</options>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.2.0">
+		<!-- files  - fakeupdate for required -->
+		<templates>templates.tar</templates>
+	</instructions>
+</package>

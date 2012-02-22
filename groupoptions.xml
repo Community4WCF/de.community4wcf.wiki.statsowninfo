@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<!-- $Id: groupoptions.xml 1541 2010-08-20 16:12:51Z TobiasH87 $ -->
+<data>
+	<import>
+		<options>
+			<!-- user.wiki.read -->
+			<option name="user.wiki.canViewStatsOwnInfo">
+				<categoryname>user.wiki.read</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+		</options>
+	</import>
+</data>
